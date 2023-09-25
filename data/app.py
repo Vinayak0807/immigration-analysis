@@ -13,7 +13,7 @@ years = list(range(1980, 2014))
 
 @st.cache_data()
 def load_data():
-    df = pd.read_excel('data\Canada.xlsx', sheet_name=1, skiprows=20, skipfooter=2) 
+    df = pd.read_excel('Canada.xlsx', sheet_name=1, skiprows=20, skipfooter=2) 
     # add a column
     df['Total'] = df[years].sum(axis=1)
     # remove unnecessary columns
