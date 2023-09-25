@@ -88,4 +88,4 @@ st.write('Country Comparisons: By selecting multiple countries and using differe
 
 st.write('Interactive: The interactive nature of the app allows users to explore data dynamically and gain a better understanding of immigration patterns over the years')
 st.write('-----')
-st.write('### DEVELOPED BY VINAYAK SHUKLA')
+st.write('### DEVELOPED BY VINAYAK SHUKLA ')
